@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Screen Locker</title>
+    <link rel="stylesheet" href="/iPhoneScreenLocker/style.css"
+</head>
+<body>
+    <script src="/iPhoneScreenLocker/JSCode.js"></script>
+    
+    <div id="homeScreen" class="screenContainer">
+        <div id="passcodeMsg"><p><strong>Enter Passcode</strong></p> </div>
+       
+       
+            <input type="password" maxlength="4" name="passInput" size="4" id="passInput">
+     
+
+        <div class="btnContainer">
+             <div class="1to3">
+                <button id="btn1" onclick="btnAction(1);">1</button>
+                <button id="btn2" onclick="btnAction(2);">2</button>
+                <button id="btn3" onclick="btnAction(3);">3</button>
+             </div>
+             
+             <div class="4to6">
+                <button id="btn4" onclick="btnAction(4);">4</button>
+                <button id="btn5" onclick="btnAction(5);">5</button>
+                <button id="btn6" onclick="btnAction(6);">6</button>
+             </div>
+                
+             <div class="7to9">
+                    <button id="btn7" onclick="btnAction(7);">7</button>
+                    <button id="btn8" onclick="btnAction(8);">8</button>
+                    <button id="btn9" onclick="btnAction(9);">9</button>
+             </div>
+
+                <div class="10to11">
+                    <button id="btn0" onclick="btnAction(0);">0</button>
+                    <button id="btn10" onclick="delElement(passInput);">DEL</button>
+                </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div id="settings">
+
+    
+</div>
+</form>
+</body>
+</html>
